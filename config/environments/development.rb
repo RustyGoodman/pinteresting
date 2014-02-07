@@ -26,8 +26,7 @@ Pinteresting::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-end
 
 # required for Heroku
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => '0.0.0.0:3000' }
 end
