@@ -1,10 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-$body-bg: #DCD1C5;
-$navbar-default-bg: #EFE9E2;
-$font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg: 					#DCD1C5;
+$navbar-default-bg:	#EFE9E2;
+$font-family-base:	'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color: #6D6358;
-$brand-primary: #F48365;
+$brand-primary:			#F48365;
 
+.center { 
+	text-align: center;
+}
 
  @import 'bootstrap'; 
